@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="namespace" default="ros_button" />
+    <group ns="$(arg namespace)">
+        <node pkg="ros_button" name="ros_button" type="ros_button"/>
+    </group>
+</launch>
